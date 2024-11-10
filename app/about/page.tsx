@@ -5,39 +5,6 @@ import profile from "../public/images/profile.png"
 export default function About() {
   return (
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div className="p-10 bg-gradient-to-r from-blue-900 via-blue-300 to-black">
   <div className="bg-transparent shadow-sm p-5">
     <div className="flex flex-wrap md:flex justify-between bg-transparent">
