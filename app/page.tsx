@@ -1,5 +1,5 @@
 import Link from "next/link";
-import profile from "../app/public/images/profile.png"
+import profile from "../app/public/images/profile.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
           
           <b>
             <h1 className="leading-normal">
-              Hi, I'm <span className="text-red-900">Alishba Nasir,</span> <br />
+              Hi, I&apos;m <span className="text-red-900">Alishba Nasir,</span> <br />
               a passionate <span className="text-red-900">Front-end</span> Developer,
             </h1>
           </b>
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex">
             <p className="m-2 hover:bg-red-900">
               <Link href="https://www.linkedin.com/in/alishba-nasirr/">
-              <img
+              <Image
                   src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png"
                   width={30}
                   alt=""
@@ -35,7 +35,7 @@ export default function Home() {
             </p>
             <p className="m-2 hover:bg-red-900">
               <Link href="https://www.facebook.com/alishba.nasir.167">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png"
                   width={30}
                   alt=""
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
             <p className="m-2 hover:bg-red-900">
               <Link href="https://github.com/alishbanasir">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
                   width={30}
                   alt=""
